@@ -14,3 +14,5 @@ while rodando:
     pygame.display.flip()
 
 pygame.quit()
+
+print("teste")

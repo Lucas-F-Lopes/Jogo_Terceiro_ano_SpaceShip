@@ -4,7 +4,7 @@ tela = pygame.display.set_mode((800, 450))
 relogio = pygame.time.Clock()
 FPS = 60
 x = 100.0
-velocidade = 240  # pixels por segundo
+velocidade = 300  # pixels por segundo
 rodando = True
 
 while rodando:

@@ -83,7 +83,7 @@ while rodando:
 
         tela.blit(mensagem, rect_mensagem)
 
-    # Atualiza a tela
     pygame.display.flip()
 
 pygame.quit()
+

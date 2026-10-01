@@ -16,11 +16,9 @@ fonte = pygame.font.Font(None, 36)
 fonte_titulo = pygame.font.Font(None, 64)
 
 while rodando:
-
     # -------------------------
     # EVENTOS
     # -------------------------
-
     for evento in pygame.event.get():
 
         if evento.type == pygame.QUIT:
@@ -37,15 +35,12 @@ while rodando:
     # -------------------------
     # CENÁRIO
     # -------------------------
-
     tela.fill((30, 30, 30))
-
     pygame.draw.rect(tela, (255, 110, 90), alvo)
 
     # -------------------------
     # INTERFACE
     # -------------------------
-
     # Placar
     texto_pontos = fonte.render(
         f"Pontos: {pontos}",
